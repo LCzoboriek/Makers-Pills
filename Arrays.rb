@@ -25,3 +25,20 @@ capitals.pop
 # Will give you ["London","Paris"]
 capitals.pop(2)
 # This will give you the last two elements in an array into a new array
+
+# to_h
+# This command will return a new hash formed from self
+
+a = [3,4,5,6, [2,4,5], :sym]
+b = a.to_h
+puts b 
+
+# each
+# iterates over each element in an array
+a = [:foo, 'bar', 2]
+a.each { |element| puts "#{element.class} #{element}" }
+
+#  the output from using this will be
+# Symbol foo
+# String bar
+# Integer 2
